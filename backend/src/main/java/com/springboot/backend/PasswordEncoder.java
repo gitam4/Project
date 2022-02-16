@@ -6,7 +6,7 @@ public class PasswordEncoder {
     public static void main(String[] args)
     {
         BCryptPasswordEncoder encoder=new BCryptPasswordEncoder();
-        String rawPassword ="nam2020";
+        String rawPassword ="sdsccx";
         String encodedPassword=encoder.encode(rawPassword);
 
         System.out.println(encodedPassword);
